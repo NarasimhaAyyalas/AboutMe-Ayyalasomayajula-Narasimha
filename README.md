@@ -2,7 +2,7 @@
 
 A single-page "About Me" website introducing my background as a statistical programming leader: education and certifications, technical skills, projects, experience, and professional links.
 
-**Live site:** _add Vercel URL here after deployment_
+   **Live site:** https://narasimha-ayyalasomayajula.vercel.app
 
 ## Built with
 
