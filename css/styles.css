@@ -131,8 +131,7 @@ h1 span { display: block; }
   transition: border-color 0.2s;
 }
 .card:hover { border-color: rgba(201, 164, 106, 0.45); }
-
-.focus-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+ .focus-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; }
 .focus-grid .card { border-top: 2px solid var(--gold); }
 .focus-grid p { font-size: 0.93rem; }
 
@@ -213,8 +212,8 @@ tbody tr:hover { background: var(--gold-soft); }
 }
 
 /* ---------- Responsive ---------- */
-@media (max-width: 960px) {
-  .focus-grid, .edu-grid { grid-template-columns: repeat(2, 1fr); }
+@media (max-width: 960px) {  
+ .edu-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (max-width: 760px) {
